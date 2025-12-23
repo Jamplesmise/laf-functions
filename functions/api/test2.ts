@@ -11,7 +11,7 @@ export default async function (ctx: FunctionContext) {
   console.log('Hello from cloud function!')
 
   return {
-    message: 'Hello, World!',
+    message: 'Hello, World!@@@@',
     body,
     query
   }
